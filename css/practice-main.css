@@ -39,15 +39,6 @@
     color: var(--ui-main-color);
 }
 
-.practice-time::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 130%; 
-    border-left: 1px solid var(--ui-color-light-gray); 
-}
-
 .practice__name {
     color: var(--ui-color-light-gray);
 }
