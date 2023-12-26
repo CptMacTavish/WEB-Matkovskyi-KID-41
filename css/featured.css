@@ -1,0 +1,138 @@
+.featured__block {
+    font-family: 'Heebo', sans-serif;
+    padding-top: 25px;
+    margin: auto;
+    max-width: 92%;
+}
+
+.featured__text {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--ui-main-color);
+}
+
+
+.featured-example {
+    position: relative;
+    padding-top: 15%;
+}
+
+.featured-example::after {
+    position: absolute;
+    content: '';
+    display: block;
+    width: 100%;
+    border-top: 1.5px solid var(--ui-color-light-gray); 
+    margin-top: 5%; 
+}
+
+.example-info {
+    padding-left: 3px;
+    margin-top: -3%;
+}
+
+.example-title {
+    padding-top: 24px;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--ui-main-color);
+}
+
+.year-type {
+    display: flex;
+}
+
+.year-text {
+    color: var(--ui-color-white);
+    padding: 7px 10px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: var(--ui-year-background-color);
+    border-radius: 20px;
+}
+
+.type-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #8695A4;
+    padding-top: 5px;
+    margin-left: 26px;
+}
+
+.example-suptitle {
+    margin-top: 17px;
+}
+
+.examle-text {
+    font-size: 16px;
+    font-weight: normal;
+    color: var(--ui-main-color);
+}
+
+@media screen and (min-width: 996px) {
+     .featured__articles{
+        max-width: 74%;
+        margin: auto;
+    }
+
+    .featured__text {
+        margin-left: 18.5%;
+        font-size: 22px;
+        text-align: left;
+        max-width: 74%;
+    }
+    
+    
+    .featured-example {
+        position: relative;
+        display: flex;
+        padding-top: 65px;
+        margin-left: 7.1%;
+    }
+    
+    .featured-example::after {
+        display: none;
+    }
+    
+    
+    .examle-img {
+        max-width: 243px;
+        border-radius: 10px;
+    }
+    
+    .example-info {
+        margin-left: 30px;
+        margin-top: -3%;
+    }
+    
+    .example-title {
+        padding-top: 26px;
+        margin: 0;
+        font-size: 30px;
+    }
+    
+    .year-type {
+        padding-top: 10px;
+    }
+
+    .year-text {
+        font-size: 18px;
+    }
+    
+    .type-text {
+        font-size: 20px;
+    }
+    
+    .example-suptitle {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (min-width: 1645px) {
+    .featured-example::after {
+        display: block;
+        margin-top: 200px;
+    }
+}

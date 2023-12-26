@@ -1,0 +1,125 @@
+.resent {
+    margin-top: 58px;
+    background-color: var(--ui-resent-color);
+}
+.resent-posts__block {
+    padding: 21px 0 21px 0;
+}
+
+.resents-nav__el {
+    padding-bottom: 21px;
+    text-align: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--ui-main-color);
+}
+
+.resent-article {
+    font-family: 'Heebo', sans-serif;
+    border-radius: 10px;
+    background-color: var(--ui-color-white);
+    max-width: 94.5%;
+    margin: 17px auto;
+}
+
+.article-title {
+    padding: 24px 0 0 23px;
+    margin: 0;
+    max-width: 89%;
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--ui-main-color);
+}
+
+.article-info{
+    padding: 20px 0 0 23px;
+    display: flex;
+}
+
+.article-date {
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ui-main-color);
+}
+
+.article-date::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 130%; 
+    border-left: 1px solid var(--ui-color-light-gray); 
+}
+
+.article-name {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ui-main-color);
+    margin-left: 58px;
+}
+
+.article-suptitle {
+    margin-top: 11px;
+    padding: 0 0 30px 23px;
+    max-width: 89%;
+}
+
+.suptitle-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ui-main-color);
+}
+
+@media screen and (min-width: 996px) {
+
+    .resents-nav__el {
+        margin-left: 2%;
+    }
+
+    .resent {
+        margin: 58px auto;
+    }
+
+    .resent-posts__block {
+        padding-bottom: 32px;
+        margin: auto;
+        max-width: 74%;
+    }
+
+    .articles {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .resent-article {
+        max-width: 44%;
+        min-height: 73%;
+    }
+
+
+    .resents-nav__el {
+        font-size: 22px;
+        text-align: left;
+        padding-left: 7%;
+    }
+
+    .article-title {
+        font-size: 26px;
+    }
+    
+    .article-date {
+        font-size: 18px;
+    }
+
+    .article-name {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1456px) {
+    .resent-article {
+        max-width: 36%;
+    }
+}

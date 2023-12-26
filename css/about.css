@@ -1,0 +1,111 @@
+.about {
+    max-width: 87.5%;
+    margin: auto;
+    padding-top: 33px;
+}
+.about__avatar {
+    position: relative;
+    max-width: 46.5%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.avatar-img {
+    border-radius: 50%;
+}
+
+.elipse-img {
+    position: absolute;
+    top: 8px;
+    right: 5px;
+    z-index: -1;
+}
+
+.about-info__block {
+    padding-top: 34px;
+}
+.about__title {
+    font-family: 'Heebo', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--ui-main-color);
+    text-align: center;
+}
+
+.about__suptitle {
+    padding-top: 21px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ui-main-color);
+    text-align: center;
+}
+
+.button__container {
+    padding-top: 27px;
+}
+
+.download-btn {
+    margin: auto;
+    width: 208px;
+    height: 47px;
+    background-color: #FF6464;
+    border-radius: 30px;
+    transition: 0.1s ease-in-out;
+}
+.download-resume {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #000;
+    opacity: 0.9;
+    padding-top: 10px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.download-btn:hover {
+    background-color: #FF6464;
+    border-radius: 10px;
+}
+
+.download-btn:hover::after {
+    transition: 0.1s ease-in-out;
+}
+
+
+@media screen and (min-width: 996px) {
+    .about {
+        width: 74%;
+        padding-top: 33px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .about__avatar {
+        order: 2;
+        margin: 0;
+    }
+
+    .about__avatar {
+        max-width: 243px;
+    }
+
+    .elipse-img{
+        max-width: 243px;
+    }
+
+    .about__title {
+        font-size: 44px;
+        text-align: left;
+    }
+
+    .about__suptitle {
+        text-align: left;
+    }
+
+    .download-btn {
+        margin: 0;
+    }
+
+}

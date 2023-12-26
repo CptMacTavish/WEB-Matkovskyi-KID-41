@@ -1,0 +1,22 @@
+.header__container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 7%;
+    margin-top: 30px;
+}
+
+.nav__link {
+    font-family: 'Heebo', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 30px;
+    color: var(--ui-main-color);
+    opacity: 0.95;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+

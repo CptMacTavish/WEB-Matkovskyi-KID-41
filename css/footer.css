@@ -1,0 +1,46 @@
+.footer {
+    font-family: 'Heebo', sans-serif;
+    padding-top: 35%;
+    margin: auto;
+}
+
+.footer-container {
+    max-width: 65%;
+    margin: auto;
+}
+
+.social-links:first-child {
+    padding-left: 0;
+}
+
+.socials-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links {
+    text-decoration: none;
+    display: block;
+    padding-left: 20px;
+}
+
+
+.footer-text {
+    text-align: center;
+    padding-top: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--ui-main-color);
+}
+
+#git {
+    margin-top: 5px;
+    max-width: 30px;
+}
+
+@media screen and (min-width: 996px) {
+    .footer {
+        padding-top: 8%;
+    }
+}

@@ -1,0 +1,31 @@
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --ui-color-white: #fff;
+  --ui-color-black: rgb(39, 38, 38);
+  --ui-color-light-gray: #ccc;
+  --ui-main-color: #21243D;
+  --ui-resent-color: #EDF7FA;
+  --ui-year-background-color: #142850;
+}
+
+body, 
+html {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+p
+{
+margin-top: 0;
+margin-bottom: 0;
+}
